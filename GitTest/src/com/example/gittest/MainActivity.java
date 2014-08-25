@@ -4,10 +4,12 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 import android.widget.Button;
+import android.widget.EditText;
 
 public class MainActivity extends Activity {
 
 	Button button_1;
+	EditText edittext_1;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
